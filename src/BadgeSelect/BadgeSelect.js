@@ -106,6 +106,7 @@ class BadgeSelect extends React.Component {
       <Popover
         shown={visible}
         dataHook={dataHook}
+        appendTo="window"
         placement="bottom"
         onKeyDown={this._onKeyDown}
         onClickOutside={this.hideDropdown}
