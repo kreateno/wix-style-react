@@ -10,7 +10,7 @@ export const badgeSelectUniDriverFactory = (base, body) => {
     base.$(`[data-hook="${DATA_ATTR.DATA_BADGE}"]`),
   );
   const dropdownLayoutDriver = dropdownLayoutDriverFactory(
-    body.$(`[data-hook="${DATA_ATTR.DATA_DROPDOWN}"]`),
+    base.$(`[data-hook="${DATA_ATTR.DATA_DROPDOWN}"]`),
   );
 
   const driver = {
