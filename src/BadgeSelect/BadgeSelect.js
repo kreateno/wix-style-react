@@ -111,6 +111,7 @@ class BadgeSelect extends React.Component {
         placement="bottom"
         onKeyDown={this._onKeyDown}
         onClickOutside={this.hideDropdown}
+        appendTo="window"
         {...popoverProps}
         {...style('root', {}, this.props)}
       >
@@ -190,6 +191,7 @@ BadgeSelect.propTypes = {
   /** Applied as data-hook HTML attribute that can be used to create driver in testing */
   dataHook: PropTypes.string,
 
+  /** common popover props */
   popoverProps: PropTypes.shape(PopoverCommonProps),
 };
 

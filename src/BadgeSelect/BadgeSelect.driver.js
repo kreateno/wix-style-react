@@ -26,7 +26,7 @@ const badgeSelectDriverFactory = ({ element, eventTrigger }) => {
 
       // Since the popover may be closed, we need to create the DropdownLayout driver every time
       const dropdownLayoutDriver = dropdownLayoutDriverFactory({
-        element: element.querySelector(
+        element: document.body.querySelector(
           `[data-hook="${DATA_ATTR.DATA_DROPDOWN}"]`,
         ),
       });
