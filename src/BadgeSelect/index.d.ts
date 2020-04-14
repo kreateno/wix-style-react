@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { BadgeSize, BadgeType, BadgeSkin } from '../Badge';
-import { PopoverCommonProps } from '../common/PropTypes/PopoverCommon';
+import { PopoverCommonProps } from '../common';
 
 export interface BadgeSelectProps {
   options?: BadgeSelectOption[];
