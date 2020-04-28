@@ -1,7 +1,49 @@
 :import {
-  -st-from: "../Foundation/stylable/colors.st.css";
-  -st-named: B10;
+  -st-from: '../Foundation/stylable/colors.st.css';
+  -st-named: B10, D10-30;
 }
 
 .root {
+}
+
+.slider {
+  --audio-player-position: 0%;
+  position: relative;
+  cursor: pointer;
+  padding: 4px 0;
+  margin: 0 4px;
+}
+
+.track {
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    value(B10) 0%,
+    value(B10) var(--audio-player-position),
+    value(D10-30) var(--audio-player-position),
+    value(D10-30) 100%
+  );
+}
+
+.handle {
+  position: absolute;
+  background: value(B10);
+  border-radius: 100%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  top: 0;
+}
+
+.tooltip {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 0;
+  width: 24px;
+  height: 12px;
+}
+
+.tooltipTarget {
+  width: 24px;
+  height: 12px;
 }
