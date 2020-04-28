@@ -1,5 +1,6 @@
 export { default as PopoverMenu } from './PopoverMenu';
 export { default as AddItem } from './AddItem';
+export { default as AudioPlayer } from './AudioPlayer';
 export { default as Avatar } from './Avatar';
 export { default as Button } from './Button';
 export { default as Input } from './Input';

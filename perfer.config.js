@@ -2,6 +2,7 @@ const javascriptFiles = [
   ['Accordion.bundle.min.js', 33],
   ['AddItem.bundle.min.js', 44],
   ['AnnouncementModalLayout.bundle.min.js', 19],
+  ['AudioPlayer.bundle.min.js', 10],
   ['AutoComplete.bundle.min.js', 71],
   ['AutoCompleteWithLabel.bundle.min.js', 69],
   ['Avatar.bundle.min.js', 54],
@@ -139,6 +140,7 @@ const javascriptFiles = [
 const cssFiles = [
   ['Accordion.min.css', 2],
   ['AddItem.min.css', 2],
+  ['AudioPlayer.min.css', 1],
   ['AutoComplete.min.css', 7],
   ['AutoCompleteComposite.min.css', 7],
   ['AutoCompleteWithLabel.min.css', 7],

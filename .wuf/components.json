@@ -8,6 +8,9 @@
   "AnnouncementModalLayout": {
     "path": "src/AnnouncementModalLayout"
   },
+  "AudioPlayer": {
+    "path": "src/AudioPlayer"
+  },
   "AutoComplete": {
     "path": "src/AutoComplete"
   },

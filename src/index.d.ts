@@ -9,6 +9,9 @@ export * from './AddItem';
 export { default as AnnouncementModalLayout } from './AnnouncementModalLayout';
 export * from './AnnouncementModalLayout';
 
+export { default as AudioPlayer } from './AudioPlayer';
+export * from './AudioPlayer';
+
 export { default as AutoComplete } from './AutoComplete';
 export * from './AutoComplete';
 
