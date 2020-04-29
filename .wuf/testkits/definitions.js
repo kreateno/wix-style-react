@@ -323,8 +323,6 @@ module.exports = {
     vanillaLegacyTestkit: true,
     enzymeLegacyTestkit: true,
     protractorLegacyTestkit: true,
-    enzymeLegacyTestkit: true,
-    protractorLegacyTestkit: true,
     protractorTestkitPath: '../src/TimeInput/TimeInput.uni.driver',
   },
 
